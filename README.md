@@ -28,4 +28,44 @@ O dataset Iris é um dos mais famosos da história do Machine Learning, criado p
 | Versicolor | 1.00 | 0.92 | 0.96 | 13 |
 | Virginica | 0.86 | 1.00 | 0.92 | 6 |
 
-## 📊 Matriz de Confusão
+
+## 🛠️ Tecnologias Utilizadas
+
+| Biblioteca | Finalidade |
+|------------|------------|
+| Python | Linguagem principal |
+| pandas | Manipulação de dados |
+| numpy | Operações matemáticas |
+| scikit-learn | Random Forest e métricas |
+| matplotlib | Criação de gráficos |
+| seaborn | Matriz de confusão |
+| jupyter | Ambiente de notebook |
+
+## 📁 Estrutura do Projeto
+```
+ML_iris/
+├── README.md # Documentação do projeto
+├── analysis.ipynb # Notebook principal com todo o código
+└── data/
+└── iris.csv # Dataset (150 amostras, 4 features)
+```
+
+## 🚀 Como Executar
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/MaykonDias/projeto-iris-m.git
+cd projeto-iris-m
+```
+### 2. Instale as dependências
+```
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+### 3. Execute o notebook
+```
+jupyter notebook analysis.ipynb
+```
+
+
+
